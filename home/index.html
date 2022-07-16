@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="intro">
+        <img class="logo" src="./src/dF5SId3UHWd.svg" alt="Facebook" />
+        <h2>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </h2>
+      </div>
+      <div>
+        <form>
+          <input type="text" placeholder="Email ou Telefone" />
+          <input type="password" placeholder="Senha" />
+          <button class="entrar">Entrar Aqui</button>
+          <a href="#">Esqueceu a senha?"</a>
+          <button class="criar-conta">Criar nova conta</button>
+        </form>
+        <p>
+          <a href="#">Criar uma pagina </a> para uma celibridade, banda ou
+          empresa
+        </p>
+      </div>
+    </div>
+    <footer>Facebook <span id='year'>2021</span>/span>></span></footer>
+    <script>
+      const year = document.getElementById('year');
+      const actualYear = new Date();
+
+      year.innerHtMl = actualYear.getFullYear();
+    </script>
+  </body>
+</html>
